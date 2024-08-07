@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase
 @Database(entities = [NotesEntity::class], version = 1, exportSchema = true)
 abstract class NotesDatabase : RoomDatabase(){
 
-    //    abstract fun notesInterface(): NotesInterface
+      abstract fun notesInterface(): NotesInterface
     //static members and functions of the class
     companion object{
         private var notesDatabase : NotesDatabase?= null
